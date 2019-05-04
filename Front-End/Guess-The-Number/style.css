@@ -1,0 +1,49 @@
+body{
+  margin: 0;
+  background-color: #f8f8f8;
+  font-family: "SF Pro TC";
+  font-size: 15px;
+}
+
+.box{
+  max-width: 900px;
+  margin: auto;
+  padding: 40px 0;
+}
+
+.form{
+  margin: 24px 0 16px 0;
+}
+
+.user-input{
+  width: 200px;
+  height: 24px;
+  border: 1px solid #e5e5e5;
+  border-radius: 3px;
+  padding: 3px 5px;
+  font-size: 15px;
+}
+
+.user-input:focus{
+  outline: none;
+  border: 1px solid #00afb8;
+}
+
+.btn{
+  width: 210px;
+  height: 32px;
+  border-radius: 3px;
+  background-color: #00afb8;
+  color: #fff;
+  border: 1px solid #008c93;
+  font-size: 15px;
+  outline: none;
+}
+
+.btn:active{
+  outline: none;
+  
+}
+.btn:hover{ 
+  background-color: #00c3cd;
+}
