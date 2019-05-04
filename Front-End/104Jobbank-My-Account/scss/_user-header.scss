@@ -1,0 +1,51 @@
+.user {
+  height: 180px;
+  background-color: $color-gray-base;
+  margin-top: 70px;
+}
+
+.user-contain {
+  display: flex;
+  align-items: flex-end;
+  padding-top: 60px;
+}
+
+.user-photo {
+  width: 10%;
+}
+
+.photo-contain {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background: url(./img/janelan.jpg) top/cover no-repeat;
+  background-size: 160%;
+  background-position-y: -10px;
+}
+
+.resume-toggle {
+  width: 30%;
+  padding-left: 20px;
+}
+
+.user-name {
+  font-size: $font-size-xl;
+  margin: 0;
+  padding: 15px 0;
+  font-weight: 500;
+}
+
+.button-list {
+  display: inline-block;
+  padding: 0 5px 0 0;
+  margin: 0;
+}
+
+.ann {
+  width: 65%;
+  &-list {
+  font-size: $font-size-xs;
+  line-height: 26px;
+  list-style: none;
+  }
+}

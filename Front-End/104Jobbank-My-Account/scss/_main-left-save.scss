@@ -1,0 +1,49 @@
+.job-save-container {
+  display: flex;
+  justify-items: center;
+  justify-content: flex-start;
+}
+
+.job-save-flex {
+  width: 25%;
+  height: 190px;
+  background-color: $color-gray-base;
+  padding: 15px;
+  margin: 0 15px 0 0;
+}
+
+.save-job-name {
+  font-size: 16px;
+  padding: 10px 0;
+  height: 90px;
+}
+
+.save-comp-name {
+  padding: 5px 0;
+  font-size: $font-size-xs;
+}
+
+.status-list {
+  padding: 0;
+  margin: 0;
+  display: inline;
+  font-size: $font-size-xs;
+}
+
+.status-text {
+  padding-left: 3px;
+}
+
+.color-primary {
+  color: $color-primary;
+}
+
+.slide-arrow {
+  width: 24px;
+  height: 190px;
+  background-color: $color-gray-base;
+  text-align: center;
+  color: $color-gray-deep;
+  font-size: $font-size-lg;
+  padding: 85px 0;
+}

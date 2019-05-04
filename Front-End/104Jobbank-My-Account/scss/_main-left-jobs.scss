@@ -1,0 +1,193 @@
+.job-contain-box {
+  padding-top: 25px;
+}
+
+.job-head {
+  color: $color-black;
+  font-size: $font-size-lg;
+  padding: 15px 0;
+}
+
+.job-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.job-contain {
+  display: flex;
+  justify-content: flex-start;
+  padding: 5px 0;
+  border-top: 1px solid $color-gray-light;
+}
+
+.job-flex-date {
+  width: 70px;
+  padding: 5px 10px;
+}
+
+.job-flex-contain {
+  width: 75%;
+  padding: 5px 0;
+}
+
+.job-flex-active {
+  width: 20%;
+  position: relative;
+}
+
+.article-flex {
+  width: 20%;
+  position: relative;
+  padding: 25px 15px;
+  align-items: center;
+}
+
+.date-text {
+  font-size: $font-size-xs;
+  color: $color-gray-light;
+  padding: 5px;
+  display: block;
+}
+
+.job-name {
+  font-size: $font-size-lg;
+}
+
+.job-brif {
+  padding: 5px 0;
+  margin: 0;
+  display: block;
+  font-weight: 300;
+  & .job-brif{
+    padding: 3px 0;
+  }
+}
+
+.comp-name {
+  font-size: $font-size-md;
+  padding-right: 10px;
+  position: relative;
+}
+
+.brif-item {
+  font-size: $font-size-md;
+  color: $color-black;
+  padding:0 10px;
+  position: relative;
+  font-weight: 300;
+  &::before{
+    content: '';
+    height: 20px;
+    background-color: $color-gray-light;
+    position: absolute;
+    width: 1px;
+    left: 0;
+  }
+}
+
+.job-descrip {
+  font-size: $font-size-md;
+  color: $color-second;
+  font-weight: 300; 
+}
+
+.job-tag-contain {
+  padding: 10px 0;
+}
+
+.job-tag {
+  background-color: #f4f4f4;
+  border: 1px solid #ddd;
+  border-radius: 2px;
+  padding: 2px 5px;
+  font-size: $font-size-xs;
+  color: #999;
+  font-weight: 300;
+  margin-right: 10px;
+}
+
+.job-active-down {
+  width: 100%;
+  position: relative;
+  height: 15px;
+}
+
+.down-icon {
+  padding: 5px 0;
+  position: absolute;
+  right: 0;
+  color: $color-gray-light;
+}
+
+.active-icon {
+  padding: 0 10px;
+  color: $color-second;
+  padding-left: 0;
+}
+
+.apply-people {
+  font-size: $font-size-md;
+  color: $color-second;
+  text-align: center;
+}
+
+.article-title {
+  font-size: $font-size-md;
+  padding: 5px 0;
+}
+
+.article-descrip {
+  font-size: $font-size-xs;
+  color: $color-black;
+  padding: 5px 0;
+  line-height: 20px;
+}
+
+.article-photo {
+  background: url(./img/u115.png) center/cover no-repeat;
+  width: 140px;
+  height: 100px;
+}
+
+.social-active {
+  font-size: $font-size-xs;
+  padding: 5px 0;
+  color: $color-second;
+  display: inline-block;
+  margin: 0;
+   .social-active {
+    padding-right: 5px;
+  }
+}
+
+.social-text {
+  position: relative;
+  padding: 0 8px;
+  &::after {
+    content: '';
+    height: 15px;
+    background-color: $color-gray-light;
+    position: absolute;
+    width: 1px;
+    right: 0;
+    top: 0;
+  }
+}
+
+.social-text-share {
+  position: relative;
+  padding: 0 8px;
+}
+
+.social-scan {
+  display: inline-block;
+  text-align: right;
+  margin-left: 300px;
+}
+
+.social-contain {
+  display: flex;
+  padding: 5px 0;
+  border-bottom: 1px solid $color-gray-light;
+  border-top: 1px solid $color-gray-light;
+}

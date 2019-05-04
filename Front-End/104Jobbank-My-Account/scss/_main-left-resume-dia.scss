@@ -1,0 +1,44 @@
+
+.resume-dia {
+  border: 1px solid $color-gray-deep;
+  height: 120px;
+  border-radius: 3px;
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  &-icon {
+    padding: 10px;
+  }
+  &-contain {
+    width: 70%;
+    padding: 10px;
+  }
+  &-eddit {
+    padding: 20px;
+  }
+  &-title {
+    font-size: $font-size-lg;
+    color: $color-black;
+  }
+  &-text {
+    display: inline-block;
+    padding: 10px 0;
+    font-size: $font-size-xs;
+    color: $color-black;
+  }
+}
+
+.resume-icon {
+  background: url(./img/u644.png) center/cover no-repeat;
+  height: 58px;
+  width: 58px;
+  background-size: 100%;
+}
+
+.star-style {
+  padding-left: 5px;
+  color: $color-primary;
+  font-size: $font-size-md;
+}
+
+

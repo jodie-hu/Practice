@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>To do list</title>
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+</head>
+<body>
+  <div class="flex-container">
+    <input type="radio" class="tab-toggle" name="tab-toggle" id="tab1" checked>
+    <input type="radio" class="tab-toggle" name="tab-toggle" id="tab2">
+    <input type="checkbox" id="menu-check">
+    <!-- 左欄 -->
+    <div class="flex-left">
+      <div class="user-content">
+        <div class="user-photo"></div>
+        <span class="user-name">Jodie</span>
+      </div>
+      <div class="feature-list feature-list-background">
+        <i class="far fa-clone icon"></i>
+        <span class="feature-list-item">所有待辦</span>
+      </div>
+      <div class="feature-list">
+        <i class="far fa-calendar icon"></i>
+        <span class="feature-list-item">今日</span>
+      </div>
+    </div>
+
+    <!-- 中欄 -->
+    <div class="flex-middle">
+      <!-- 上面header部分 -->
+      
+      <div class="middle-header">
+        <label for="menu-check" class="menu">
+          <div class="menu-line"></div>
+        </label>
+        <div class="middle-title">所有待辦</div>
+        <input type="text" id="input" class="add-task placeholder-style" placeholder="新增待辦事項，按下Enter則儲存">
+      </div>
+
+      <!-- 中間to do list -->
+      <div class="middle-body">
+        <div class="list-title">To do</div>
+        
+        <!-- 任務列表 -->
+        <div class="task-box" id="task-box">
+          <label for="tab1" class="tab-item">
+            <div class="task-list">
+              <div class="task-check"><input type="checkbox"></div>
+              <div class="task-item">This is first item.</div>
+              <i class="far fa-trash-alt trash"></i>
+            </div>
+          </label>
+          <label for="tab2" class="tab-item">
+            <div class="task-list">
+              <div class="task-check"><input type="checkbox"></div>
+              <div class="task-item">This is second item.</div>
+              <i class="far fa-trash-alt trash"></i>
+            </div>
+          </label>
+        </div>
+      </div>
+    </div>
+
+    <!-- 右欄 -->
+    <div class="flex-right">
+      <div class="tab-content">
+        <div class="content-header">
+          <input type="text" value="This is first item." class="content-title content-text placeholder-style">
+        </div>
+        <div class="content-text">
+          <textarea name="" id="" cols="" rows="" class="textarea-content content-text placeholder-style" placeholder="描述內容"></textarea>
+        </div>
+      </div>
+
+      <div class="tab-content">
+        <div class="content-header">
+          <input type="text" value="This is second item." class="content-title content-text placeholder-style">
+        </div>
+        <div class="content-text">
+          <textarea name="" id="" cols="75%" rows="50%" class="textarea-content content-text placeholder-style" placeholder="描述內容"></textarea>
+        </div>
+        
+      </div>
+    </div>
+
+  </div>
+
+
+
+
+  <script src="./todolist.js"></script>
+</body>
+</html>

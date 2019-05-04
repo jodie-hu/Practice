@@ -1,0 +1,142 @@
+.tool-box {
+  width: 100%;
+  height: 520px;
+  border: 1px solid $color-gray-deep;
+  border-radius: 3px;
+  position: relative;
+  overflow: hidden;
+  background-color: $color-white;
+}
+
+.tool-title {
+  font-size: $font-size-lg;
+  margin: 8px 0;
+}
+
+.tool-brif {
+  font-size: $font-size-xs;
+}
+
+.tool-content {
+  padding: 5px 0;
+}
+
+.mettle-list {
+  display: inline-block;
+  padding-left: 0;
+  margin: 10px 0;
+}
+
+.color-info {
+  color: #175ccc;
+}
+
+.color-orange {
+  color: #FF6F00;
+}
+
+.color-brown {
+  color: #760606;
+}
+
+.color-green {
+  color: #66B80C;
+}
+
+.color-purple {
+  color: #BC0BB2;
+}
+
+.color-white {
+  color: $color-white;
+}
+
+.mettle-icon {
+  font-size: $font-size-xs;
+}
+
+.mettle-name {
+  font-size: $font-size-md;
+}
+
+.mettle-content {
+  font-size: $font-size-xs;
+  padding-left: 10px;
+  font-weight: 300;
+}
+
+.recommend-content {
+  padding: 10px 0;
+  background-color: #FF6F00;
+  margin: 0 -20px;
+  position: absolute;
+  bottom: 25px;
+}
+
+.recommend {
+  font-size: $font-size-xs;
+  margin: 10px 20px;
+  display: block;
+}
+
+.job-item-list {
+  list-style: none;
+  padding-left: 0;
+  margin: 0 10px;
+}
+
+.dot {
+  position: absolute;
+  background-color: $color-gray-base;
+  bottom: 0;
+  height: 25px;
+  width: 100%;
+  left: 0;
+}
+
+.pic {
+  padding: 15px 0;
+}
+
+.pic-content {
+  background: url(./img/pic1.png) center/cover no-repeat;
+  width: 250px;
+  height: 330px;
+  margin: 0 -18px 0 -20px;
+  position: absolute;
+}
+
+.action {
+  width: 250px;
+  height: 50px;
+  position: absolute;
+  bottom: 30px;
+  padding: 5px 20px;
+  padding-left: 110px;
+}
+
+.slick-track {
+  height: 520px;
+  padding: 20px;
+}
+
+.page-footer {
+  width: 100%;
+  height: 50px;
+  border-top: 1px solid $color-gray-light;
+  margin-top: 20px;
+  padding: 10px;
+}
+
+.footer-content {
+  font-size: $font-size-xs;
+  color: $color-second;
+}
+
+.right-fixed {
+  position: fixed;
+  width: 275px;
+  left: 50%;
+  top: 168px;
+  transform: translateX(275px);
+}

@@ -1,0 +1,20 @@
+@mixin contain-box {
+  max-width: 1100px;
+  margin: auto;
+}
+
+.contain-box {
+  @include contain-box;
+}
+
+@import "variables";
+@import "base";
+@import "header";
+@import "user-header";
+@import "nav";
+@import "main";
+@import "main-left-resume-dia";
+@import "main-left-save";
+@import "main-left-jobs";
+@import "element";
+@import "main-right";

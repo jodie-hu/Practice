@@ -1,0 +1,84 @@
+.header {
+  background-color: $color-gray-base;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 99;
+}
+
+.header-contain {
+  height: 70px;
+  margin: auto;
+  max-width: 1200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  width: 160px;
+  height: 35px;
+  background: url(./img/104logo_o_180x26.svg) center/cover no-repeat;
+  background-size: 100% 100%;
+}
+
+.search-input-list {
+  float: left;
+  .search-input-list {
+    display: inline-block;
+    padding: 0;
+  }
+  & :focus {
+    outline: none;
+  }
+}
+
+.search-input {
+  border: 1px solid $color-gray-deep;
+  border-right: none; 
+  height: 36px;
+  padding: 5px;
+  font-size: 16px;
+  color: $color-black;
+}
+
+
+.icon-search {
+  height: 36px;
+  padding: 5px 8px;
+  background-color: $color-gray-base;
+  border: 1px solid $color-gray-deep;
+  font-size: 24px;
+  color: $color-gray-light;
+}
+
+.notice {
+  color: $color-gray-deep;
+}
+
+.status-icon-list {
+  padding-left: 10px;
+  display: inline-block;
+  height: 24px;
+}
+
+.status-icons {
+  width: 24px;
+  height: 24px;
+  background-color: aqua;
+}
+
+.browser {
+  background: url(./img/icon_alertbar_browser.gif) center/cover no-repeat;
+  background-size: 150%;
+}
+
+.letter {
+  background: url(./img/icon_alertbar_letter.gif) center/cover no-repeat;
+  background-size: 150%;
+}
+
+.newjob {
+  background: url(./img/icon_alertbar_newjob.gif) center/cover no-repeat;
+  background-size: 150%;
+}

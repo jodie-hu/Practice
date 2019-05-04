@@ -1,0 +1,90 @@
+/*  背景色 b-c-* */
+// 基本灰色背景
+.b-color--base {
+  background-color: $color-gray-base;
+}
+
+// 主色背景
+.b-color--primary {
+  background-color: $color-primary;
+}
+
+/*  文字顏色 t-c-* */
+//主色
+.t-color--primary {
+  color: $color-primary;
+}
+
+//次要色
+.t-color--black {
+  color: $color-second;
+}
+
+//連結色 
+.t-color--url {
+  color: $color-url;
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+//黑色 
+.t-color--black {
+  color: $color-black;
+}
+
+/*  button */
+//基本邊距大小
+.btn {
+  padding: 6px 25px;
+  font-size: $font-size-md;
+  background-color: rgba(0, 0, 0, 0);
+  border-radius: 3px;
+  outline: none;
+}
+
+//主色btn
+.btn-primary {
+  border: 1px solid $color-primary;
+  color: $color-primary;
+  &:hover {
+    border: 1px solid #ff7800;
+    color: #ff7800;
+  }
+}
+
+//次要色btn
+.btn-second {
+  border: 1px solid $color-second;
+  color: $color-second;
+  &:hover {
+    border: 1px solid $color-primary;
+    color: $color-primary;
+  }
+}
+
+//次要有icon的button
+.btn-second-icon {
+  padding: 6px 30px;
+  margin: 15px 18px;
+  display: block;
+  border: 1px solid $color-second;
+  color: $color-second;
+  &:hover {
+    border: 1px solid $color-primary;
+    color: $color-primary;
+  }
+  &:hover > .active-icon {
+    color: $color-primary;
+  }
+}
+
+//白色btn
+.btn-white {
+  border: 1px solid $color-white;
+  color: $color-white;
+  margin: 20px;
+  width: 213px;
+}
+
+
